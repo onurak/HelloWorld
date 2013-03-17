@@ -12,4 +12,10 @@
 
 @property (copy, nonatomic) NSString *userName;
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+- (IBAction)changeGreeting:(id)sender;
+
 @end
